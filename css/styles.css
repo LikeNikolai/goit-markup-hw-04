@@ -289,7 +289,7 @@ img {
   background-color: #ffffff10;
   border-radius: 50%;
   padding: 12px;
-  display: inline-block;
+  display: block;
 }
 
 .join__link:hover {
