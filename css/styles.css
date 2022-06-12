@@ -511,6 +511,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
 }
 
 .team__member__link__svg {
@@ -521,6 +522,12 @@ img {
 .team__member__contact:hover .team__member__link__svg,
 .team__member__contact:focus .team__member__link__svg {
   fill: var(--background-color);
+}
+
+.team__member__link:hover,
+.team__member__link:focus {
+  /* fill: var(--background-color); */
+  background-color: var(--active-color);
 }
 
 .team__member__contacts {
@@ -539,10 +546,7 @@ img {
   margin-left: 0px;
 }
 
-.team__member__contact:hover,
-.team__member__contact:focus {
-  background-color: var(--active-color);
-}
+
 
 /* ---------------------------------CLIENTS------------------------ */
 
@@ -589,9 +593,14 @@ img {
 .client__link:hover .client__icon,
 .client__link:focus .client__icon {
   fill: var(--active-color);
-  border-color: var(--active-color);
-
 }
+
+.client__link:hover,
+.client__link:focus {
+  fill: var(--active-color);
+  border-color: var(--active-color);
+}
+
 
 
 
